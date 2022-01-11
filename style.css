@@ -138,3 +138,46 @@ a {
 
 
 
+
+.lates-course {
+    padding: 30px;
+    background: white;
+    margin-top: 28px;
+    border-radius: 10px;
+}
+
+.course.info img {
+    width: 224px;
+    height: 105px;
+}
+
+
+.course-box-wrapper {
+    display: flex;
+    grid-column-gap: 11em;
+}
+
+h3.lates-info {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.rating-left i {
+    color: orange;
+    font-size: 12px;
+}
+
+.rating-left a {
+    margin-left: 12px;
+}
+
+i.far.fa-clock {
+    margin-left: 19px;
+    color: #b12d2d;
+    font-weight: 600;
+    background: #ff00003d;
+    padding: 5px;
+    border-radius: 15px;
+}
+
