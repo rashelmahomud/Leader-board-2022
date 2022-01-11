@@ -3,13 +3,24 @@
     padding: 0;
 }
 
+body{
+    background-color: #F3F1FF
+
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
+
+}
+.section-content{
+    
     display: flex;
     justify-content: space-between;
     padding: 22px 0px;
 }
+
+
 .header-section{
     background-color: #562eff
 }
@@ -61,3 +72,34 @@ a {
 .menus-all a {
     color: white;
 }
+
+
+/* header section ends hre  */
+
+
+.top-players-section {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.players-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 12em;
+    grid-row-gap: 2em;
+}
+
+.player-all {display: flex;}
+
+h2.top-players-title {
+    margin-bottom: 22px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.player-all {gap: 20px;align-items: center;}
+
+
