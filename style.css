@@ -40,6 +40,11 @@ ul.menu-items li a {
     text-decoration: none;
 }
 
+li.right-logo {
+    margin-top: -13px;
+}
+
+
 ul.menu-items {
     display: flex;
 }
@@ -181,3 +186,124 @@ i.far.fa-clock {
     border-radius: 15px;
 }
 
+
+    /* Somthingly ends here in css code  */
+
+
+    /* starte responcive media quereey start here */
+
+
+    @media  only screen and (max-width: 688px) {
+
+
+        .container {
+            width: 100%;
+            
+        }
+
+
+        .section-content {
+            display: block;
+        }
+        
+        .menus-all {
+            display: inline;
+            line-height: 76px;
+            text-align: center;
+        }
+
+        ul.menu-items {
+            display: block;
+        }
+        li:hover {
+            background: #4373af;
+        }
+
+        .header-left {
+            margin-left: 15px;
+        }
+
+        .players-section {
+            grid-template-columns: repeat( 1, 1fr);
+        }
+
+        .blogs-all {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+        .blogs-info {
+            font-size: 16px;
+        }
+
+        .course-box-wrapper {
+            display: block;
+        }
+        
+        h3.lates-info {
+            font-size: 21px;
+        }
+        
+        .lates-course-box {
+            margin-bottom: 30px;
+        }
+
+
+    }
+
+    /* phone responsive ends here  */
+
+
+
+
+    /* ipad responsive startd here  */
+
+
+    @media only screen  and (min-width: 688px) and (max-width: 992px) {
+
+
+        .container{
+            width: 100%;
+        }
+        .players-section {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 67px;
+        }
+
+        
+        .top-players-section {
+            text-align: center;
+            margin-left: 3px;
+        }
+        
+        .blogs-all{
+
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+
+
+
+        .course-box-wrapper {
+            display: block;
+            text-align: center;
+        }
+
+        .course-title {
+            text-align: center;
+        }
+
+        h2.top-players-title {
+            font-size: 65px;
+        }
+
+        .lates-course-box {
+            margin-bottom: 80px;
+        }
+
+        .course.info img {
+            width: 350px;
+            height: 214px;
+        }
+        
+    }
